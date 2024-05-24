@@ -10,10 +10,11 @@ body {
   font-family: "Open Sans", sans-serif !important;
   font-size: 16px !important;
   font-optical-sizing: auto !important;
+  height: 100%;
 }
 
 #logo {
-  font-size: 1.875rem !important;
+  font-size: 1.675rem !important;
   font-family: "Viga", sans-serif;
   background: linear-gradient(90deg, var(--tertiary-color) 50%,  var(--secondary-color));
   background-clip: text;
@@ -38,6 +39,7 @@ header nav a {
   font-size: .985rem !important;
   font-weight: 600 !important;
   padding: 0 10px !important;
+  background-color: var(--primary-color);
 }
 header nav a:hover {
   background: linear-gradient(90deg, var(--secondary-color) 0%,  var(--tertiary-color) 100%);

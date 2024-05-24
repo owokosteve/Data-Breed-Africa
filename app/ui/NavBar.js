@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function NavBar() { 
+export default function NavBar() {  
     return (
         <header className="navbar sticky-top navbar-expand-lg">
             <nav className="container-fluid">
@@ -19,12 +19,12 @@ export default function NavBar() {
                             <Link href="/#academy" className="dropdown-item">DBA Academy</Link>
                             </span>
                         </span>
-                        <Link href="/blog" className="nav-link mx-2">Blog</Link>
+                        <Link href="https://databreed.wordpress.com/" target="_blank" className="nav-link mx-2">Blog</Link>
                         <Link href="/FAQ" className="nav-link mx-2">FAQs</Link>
                         <Link href="/contacts" className="nav-link mx-2">Contact</Link>
                     </div>
                 </div>
-            </nav>
+            </nav> 
         </header>
     );
 }
