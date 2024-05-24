@@ -4,11 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
-    return(
-        <footer> 
+    return (
+        <footer>
             <div className={`${[styles.grid]} mx-auto py-5 text-center`}>
                 <section className="mx-2 my-auto">
-                    <Image 
+                    <Image
                         unoptimized
                         src="/imgs/logo.png"
                         alt="DataBreed Logo"
@@ -21,6 +21,7 @@ export default function Footer() {
                     <nav className="nav flex-column">
                         <Link className="nav-link" href={"#"}><i className="bi bi-geo-alt-fill"></i>&nbsp; China Centre, Ngong Rd. Nairobi, Kenya</Link>
                         <Link className="nav-link" href={"#"}><i className="bi bi-telephone-fill"></i>&nbsp; +254792596600</Link>
+                        <Link className="nav-link" href={"#"}><i className="bi bi-envelope-fill"></i>&nbsp; info@databreed.africa</Link>
                         <Link className="nav-link" href="https://wa.me/+254792596600" target="_blank"><i className="bi bi-whatsapp"></i>&nbsp; WhatsApp Us</Link>
                     </nav>
                 </section>
@@ -42,6 +43,8 @@ export default function Footer() {
                     </nav>
                 </section>
             </div>
+            <div className="elfsight-app-4f8bb354-23f8-4a11-b9d2-99139e82a7f3" data-elfsight-app-lazy></div>
+            <div className="text-center border-top p-2"><small>&copy;2024 | All Rights Reserved</small></div>
         </footer>
     );
 }

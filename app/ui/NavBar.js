@@ -1,17 +1,15 @@
 import Link from "next/link";
 
-export default function NavBar() {
+export default function NavBar() { 
     return (
-        <header>
-            <nav className="navbar sticky-top navbar-expand-lg shadow-lg">
-                <div className="container-fluid">
-                    <Link href="/" id="logo" className="navbar-brand">DataBreed Africa</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                </div>
+        <header className="navbar sticky-top navbar-expand-lg">
+            <nav className="container-fluid">
+                <Link href="/" id="logo" className="navbar-brand">Data Breed Africa</Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav text-center">
+                    <div className="navbar-nav text-center ms-auto">
                         <Link href="/" className="nav-link mx-2">Home</Link>
                         <Link href="/#about" className="nav-link mx-2">About</Link>
                         <span className="nav-item dropdown">

@@ -1,6 +1,6 @@
 'use client'
 
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import NavBar from "./ui/NavBar";
 import Footer from "./ui/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 // export const metadata = {
 //   title: "DataBreed Africa | Welcome",
@@ -24,10 +24,15 @@ export default function RootLayout({ children }) {
     script.crossOrigin = 'anonymous';
     script.async = true;
     document.head.appendChild(script);
-
+    // Whatsapp script
+    const script2 = document.createElement('script');
+    script2.src = "https://static.elfsight.com/platform/platform.js";
+    script2.defer = true;
+    document.head.appendChild(script2);
     return () => {
       // Cleanup: Remove the script when component unmounts
       document.head.removeChild(script);
+      document.head.removeChild(script2);
     };
   }, []);
   return (
@@ -37,7 +42,11 @@ export default function RootLayout({ children }) {
         <NavBar />
         {children}
         <Footer />
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
       </body>
     </html>
   );
 }
+
+{/* <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script> */}
+{/* <div className="elfsight-app-4f8bb354-23f8-4a11-b9d2-99139e82a7f3" data-elfsight-app-lazy></div> */}
