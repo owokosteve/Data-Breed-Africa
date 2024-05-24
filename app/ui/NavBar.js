@@ -20,8 +20,8 @@ export default function NavBar() {
                             </span>
                         </span>
                         <Link href="https://databreed.wordpress.com/" target="_blank" className="nav-link mx-2">Blog</Link>
-                        <Link href="/FAQ" className="nav-link mx-2">FAQs</Link>
-                        <Link href="/contacts" className="nav-link mx-2">Contact</Link>
+                        <Link href="FAQ" className="nav-link mx-2">FAQs</Link>
+                        <Link href="contacts" className="nav-link mx-2">Contact</Link>
                     </div>
                 </div>
             </nav> 

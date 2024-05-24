@@ -163,29 +163,29 @@ export default function Home() {
                 </div>
                 <Image
                   unoptimized
-                  src="imgs/hranalytics.jpg"
-                  width={400} 
+                  src="imgs/dataanalysis.jpg"
+                  width={400}
                   height={300}
-                  alt="HR Analytics"
+                  alt="Data Analysis"
                   className="img-fluid "
-                  // style={{ borderRadius: "21px 21px" }}
+                // style={{ borderRadius: "21px 21px" }}
                 />
               </Link>
               <Link href="/contacts" className="shadow-lg card">
                 <div className="card-body">
                   <h3 className="display-6 fw-medium card-title">DBA Combo Packages</h3>
                   <p className="lead text-dark card-text">Combine your skills with our DBA Combo Packages.
-                      Choose from various combinations to suit your needs.
+                    Choose from various combinations to suit your needs.
                   </p>
                 </div>
                 <Image
                   unoptimized
-                  src="imgs/hranalytics.jpg"
-                  width={400} 
+                  src="imgs/combo.jpg"
+                  width={400}
                   height={300}
                   alt="HR Analytics"
                   className="img-fluid "
-                  // style={{ borderRadius: "21px 21px" }}
+                // style={{ borderRadius: "21px 21px" }}
                 />
               </Link>
               <Link href="/contacts" className="shadow-lg card">
@@ -199,45 +199,45 @@ export default function Home() {
                 <Image
                   unoptimized
                   src="imgs/fullstackdataanalysis.jpg"
-                  width={400} 
+                  width={400}
                   height={300}
-                  alt="HR Analytics"
+                  alt="Full Stack Data Analysis image"
                   className="img-fluid "
-                  // style={{ borderRadius: "21px 21px" }}
+                // style={{ borderRadius: "21px 21px" }}
                 />
               </Link>
               <Link href="/contacts" className="shadow-lg card">
                 <div className="card-body">
                   <h3 className="display-6 fw-medium card-title">Data Analytics Services</h3>
                   <p className="lead text-dark card-text">Unlock the potential of your HR data with our Human Resource
-                      Analytics course. Learn to optimize your HR processes for maximum efficiency.
+                    Analytics course. Learn to optimize your HR processes for maximum efficiency.
                   </p>
                 </div>
                 <Image
                   unoptimized
                   src="imgs/hranalytics.jpg"
-                  width={400} 
+                  width={400}
                   height={300}
-                  alt="HR Analytics"
+                  alt="Data Analytics Services"
                   className="img-fluid "
-                  // style={{ borderRadius: "21px 21px" }}
+                // style={{ borderRadius: "21px 21px" }}
                 />
               </Link>
               <Link href="/contacts" className="shadow-lg card">
                 <div className="card-body">
                   <h3 className="display-6 fw-medium card-title">Inventory Management</h3>
                   <p className="lead text-dark card-text">Unlock the potential of your HR data with our Human Resource
-                      Analytics course. Learn to optimize your HR processes for maximum efficiency.
+                    Analytics course. Learn to optimize your HR processes for maximum efficiency.
                   </p>
                 </div>
                 <Image
                   unoptimized
                   src="imgs/inventory.jpg"
-                  width={400} 
+                  width={400}
                   height={300}
                   alt="Inventory management"
                   className="img-fluid "
-                  // style={{ borderRadius: "21px 21px" }}
+                // style={{ borderRadius: "21px 21px" }}
                 />
               </Link>
               <Link href="/contacts" className="shadow-lg card">
@@ -250,11 +250,11 @@ export default function Home() {
                 <Image
                   unoptimized
                   src="imgs/corporate.jpg"
-                  width={400} 
+                  width={400}
                   height={300}
                   alt="Corporate Training"
                   className="img-fluid "
-                  // style={{ borderRadius: "21px 21px" }}
+                // style={{ borderRadius: "21px 21px" }}
                 />
               </Link>
             </div>
@@ -392,6 +392,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <div className="elfsight-app-4f8bb354-23f8-4a11-b9d2-99139e82a7f3" data-elfsight-app-lazy></div>
       </main>
     </>
   );

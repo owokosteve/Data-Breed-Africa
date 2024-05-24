@@ -32,14 +32,14 @@ header {
   background-color: var(--primary-color);
   height: 70px;
 }
-header .navbar-nav { background-color: var(--primary-color);}
+header .navbar-nav, header .navbar-nav a { background-color: var(--primary-color) !important;}
 
 header nav a {
   color:  var(--tertiary-color) !important;
   font-size: .985rem !important;
   font-weight: 600 !important;
   padding: 0 10px !important;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
 }
 header nav a:hover {
   background: linear-gradient(90deg, var(--secondary-color) 0%,  var(--tertiary-color) 100%);
@@ -167,6 +167,12 @@ header nav a:hover {
 #academy a p:hover, #academy h3:hover {
   color: var(--primary-color) !important;
   text-decoration: underline;
+}
+
+#academy img {
+  height: 200px;
+  width: 400px;
+  object-fit: cover !important;
 }
 
 

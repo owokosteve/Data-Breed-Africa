@@ -6,45 +6,46 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <footer>
-            <div className={`${[styles.grid]} mx-auto py-5 text-center`}>
-                <section className="mx-2 my-auto">
-                    <Image
-                        unoptimized
-                        src="/imgs/logo.png"
-                        alt="DataBreed Logo"
-                        width={200}
-                        height={200}
-                    />
-                </section>
-                <section className="mx-2">
-                    <h4 className="display-6 fw-medium fs-2 my-4">Get In Touch</h4>
-                    <nav className="nav flex-column">
-                        <Link className="nav-link" href={"#"}><i className="bi bi-geo-alt-fill"></i>&nbsp; China Centre, Ngong Rd. Nairobi, Kenya</Link>
-                        <Link className="nav-link" href={"#"}><i className="bi bi-telephone-fill"></i>&nbsp; +254792596600</Link>
-                        <Link className="nav-link" href={"#"}><i className="bi bi-envelope-fill"></i>&nbsp; info@databreed.africa</Link>
-                        <Link className="nav-link" href="https://wa.me/+254792596600" target="_blank"><i className="bi bi-whatsapp"></i>&nbsp; WhatsApp Us</Link>
-                    </nav>
-                </section>
-                <section className="mx-2">
-                    <h4 className="display-6 fw-medium fs-2 my-4">Quick Links</h4>
-                    <nav className="nav flex-column">
-                        <Link className="nav-link" href="/">Home</Link>
-                        <Link className="nav-link" href="/#about">About</Link>
-                        <Link className="nav-link" href="/#services">Consultancy</Link>
-                        <Link className="nav-link" href="/#academy">DBA Academy</Link>
-                    </nav>
-                </section>
-                <section className="mx-2">
-                    <h4 className="display-6 fw-medium fs-2 my-4">Help</h4>
-                    <nav className="nav flex-column">
-                        <Link className="nav-link" href="/blog">Blog</Link>
-                        <Link className="nav-link" href="/FAQ">FAQ</Link>
-                        <Link className="nav-link" href="/contacts">Contact us</Link>
-                    </nav>
-                </section>
+            <div className="container-fluid">
+                <div className={`${[styles.grid]} mx-auto py-5 text-center`}>
+                    <section className="mx-2 my-auto">
+                        <Image
+                            unoptimized
+                            src="/imgs/logo.png"
+                            alt="DataBreed Logo"
+                            width={200}
+                            height={200}
+                        />
+                    </section>
+                    <section className="mx-2">
+                        <h4 className="display-6 fw-medium fs-2 my-4">Get In Touch</h4>
+                        <nav className="nav flex-column">
+                            <Link className="nav-link" href={"#"}><i className="bi bi-geo-alt-fill"></i>&nbsp; China Centre, Ngong Rd. Nairobi, Kenya</Link>
+                            <Link className="nav-link" href={"#"}><i className="bi bi-telephone-fill"></i>&nbsp; +254792596600</Link>
+                            <Link className="nav-link" href={"#"}><i className="bi bi-envelope-fill"></i>&nbsp; info@databreed.africa</Link>
+                            <Link className="nav-link" href="https://wa.me/+254792596600" target="_blank"><i className="bi bi-whatsapp"></i>&nbsp; WhatsApp Us</Link>
+                        </nav>
+                    </section>
+                    <section className="mx-2">
+                        <h4 className="display-6 fw-medium fs-2 my-4">Quick Links</h4>
+                        <nav className="nav flex-column">
+                            <Link className="nav-link" href="/">Home</Link>
+                            <Link className="nav-link" href="/#about">About</Link>
+                            <Link className="nav-link" href="/#services">Consultancy</Link>
+                            <Link className="nav-link" href="/#academy">DBA Academy</Link>
+                        </nav>
+                    </section>
+                    <section className="mx-2">
+                        <h4 className="display-6 fw-medium fs-2 my-4">Help</h4>
+                        <nav className="nav flex-column">
+                            <Link className="nav-link" href="/blog">Blog</Link>
+                            <Link className="nav-link" href="/FAQ">FAQ</Link>
+                            <Link className="nav-link" href="/contacts">Contact us</Link>
+                        </nav>
+                    </section>
+                </div>
+                <div className="text-center border-top p-2"><small>&copy;2024 | All Rights Reserved</small></div>
             </div>
-            <div className="elfsight-app-4f8bb354-23f8-4a11-b9d2-99139e82a7f3" data-elfsight-app-lazy></div>
-            <div className="text-center border-top p-2"><small>&copy;2024 | All Rights Reserved</small></div>
         </footer>
     );
 }
