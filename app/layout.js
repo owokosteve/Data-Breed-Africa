@@ -1,19 +1,11 @@
 'use client'
 
-// import { Inter } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useEffect } from "react";
 import NavBar from "./ui/NavBar";
 import Footer from "./ui/Footer";
-
-// const inter = Inter({ subsets: ["latin"] });
-
-// export const metadata = {
-//   title: "DataBreed Africa | Welcome",
-//   description: "Created by Vostlink Technologies",
-// };
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -47,6 +39,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-{/* <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script> */}
-{/* <div className="elfsight-app-4f8bb354-23f8-4a11-b9d2-99139e82a7f3" data-elfsight-app-lazy></div> */}
