@@ -22,7 +22,7 @@ export default function Footer() {
                         <nav className="nav flex-column">
                             <Link className="nav-link" href={"#"}><i className="bi bi-geo-alt-fill"></i>&nbsp; China Centre, Ngong Rd. Nairobi, Kenya</Link>
                             <Link className="nav-link" href={"#"}><i className="bi bi-telephone-fill"></i>&nbsp; +254792596600</Link>
-                            <Link className="nav-link" href={"#"}><i className="bi bi-envelope-fill"></i>&nbsp; info@databreed.africa</Link>
+                            <Link className="nav-link" href={"#"}><i className="bi bi-envelope-fill"></i>&nbsp; info@databreedafrica.com</Link>
                             <Link className="nav-link" href="https://wa.me/+254792596600" target="_blank"><i className="bi bi-whatsapp"></i>&nbsp; WhatsApp Us</Link>
                         </nav>
                     </section>

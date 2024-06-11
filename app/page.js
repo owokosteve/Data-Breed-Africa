@@ -383,7 +383,7 @@ export default function Home() {
         </section>
         <section id="social">
           <div className="text-center py-5 mb-3">
-            <h2 className="display-3 text-center fw-medium mt-4 mb-3">Let&apos;s Get Social</h2>
+            <h2 className="display-3 text-center fw-bold mt-5 mb-3">Let&apos;s Get Social</h2>
             <div className="social-icons">
               <Link className="mx-2" href="https://web.facebook.com/profile.php?id=100067535365032" target="_blank"><Image unoptimized src="/imgs/social/facebook-icon.png" alt="Facebook Icon" width={70} height={70} /></Link>
               <Link className="mx-2" href="https://twitter.com/DataBreedAfrica" target="_blank"><Image unoptimized src="/imgs/social/twitter-icon.png" alt="Twitter Icon" width={70} height={70} /></Link>

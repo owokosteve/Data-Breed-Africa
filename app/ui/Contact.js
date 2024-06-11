@@ -33,7 +33,7 @@ export default function ContactUI() {
             <section id="contacts">
                 <div className="container row shadow w-75 m-5 mx-auto">
                     <div className="email col-md-7 p-4">
-                        <h1 className="display-5 fw-bold fs-2 mb-4">Get In Touch</h1>
+                        <h1 className="display-5 fw-bold fs-3 mb-4">Get In Touch</h1>
                         <p className="lead fs-6">We are always on the lookout to work with new clients. Please get in touch
                             in one of the following ways.
                         </p>
@@ -69,19 +69,19 @@ export default function ContactUI() {
                         </form>
                     </div>
                     <div className="info col-md-5 p-4">
-                        <h2 className="display-5 fw-bold fs-2 mb-4">Contact information</h2>
+                        <h2 className="fw-bold fs-4 mb-4">Contact information</h2>
                         <div>
                             <p className="fs-5"><i className="bi bi-geo-alt-fill fs-4"></i>&nbsp;<span className="fw-bold">Address</span></p>
-                            <p className="ms-4">China Centre, Ngong Rd. Nairobi, Kenya</p>
+                            <p className="ms-2">China Centre, Ngong Rd. Nairobi, Kenya</p>
                         </div>
                         <div className="row mt-4">
                             <div className="col-6">
                                 <p className="fs-5"><i className="bi bi-telephone-forward-fill fs-4"></i> &nbsp;<span className="fw-bold">Phone</span></p>
-                                <p className="ms-4">+254792596600</p>
+                                <p className="ms-2">+254792596600</p>
                             </div>
                             <div className="col-6">
                                 <p className="fs-5"><i className="bi bi-envelope-fill fs-4"></i>&nbsp;<span className="fw-bold">Email</span></p>
-                                <p className="ms-4">info@databreed.africa</p>
+                                <p className="ms-2">info@databreedafrica.com</p>
                             </div>
                         </div>
                         <div className="row mt-4">
